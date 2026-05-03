@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Cormorant Garamond', ui-serif, Georgia, serif;
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+
+  --color-brand-brown: #4a2c1d;
+  --color-brand-gold: #d4af37;
+  --color-parchment: #f5f0e6;
+  --color-parchment-dark: #e8dfd0;
+  --color-dark: #0f0e0d;
+  --color-dark-elevated: #1a1816;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100svh;
+}
